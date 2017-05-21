@@ -1,0 +1,27 @@
+package com.udacity.gradle.builditbigger;
+
+import android.content.Context;
+import android.test.AndroidTestCase;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+public class ExampleUnitTest {
+    @Test
+    public void addition_isCorrect() throws Exception {
+        assertEquals(4, 2 + 2);
+    }
+
+    @Test
+    public void checkNonNullString(){
+        //EndpointsAsyncTask endpointsAsyncTask = new EndpointsAsyncTask(getContext());
+        String result = null;
+        assertNotNull(result);
+    }
+}
