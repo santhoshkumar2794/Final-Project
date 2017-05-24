@@ -11,8 +11,8 @@ import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
+import com.santhosh.builditbigger.backend.jokeApi.JokeApi;
 import com.santhosh.jokeactivity.JokeActivity;
-import com.udacity.gradle.builditbigger.jokebackend.jokeApi.JokeApi;
 
 import java.io.IOException;
 
